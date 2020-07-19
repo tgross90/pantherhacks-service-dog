@@ -7,7 +7,7 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
-    color: #c1812b;
+    color: #fff;
     line-height: 1.6;
 }
 
@@ -39,15 +39,15 @@ body {
 #showcase .button {
     font-size: 18px;
     text-decoration: none;
-    color: #c1812b;
-    border: #c1812b 1px solid;
+    color: #fff;
+    border: #fff 1px solid;
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 20px;
 }
 
 #showcase .button:hover {
-    background: #c1812b;
+    background: #396D48;
     color: #fff;
 }
 
@@ -86,14 +86,19 @@ body {
 #section-c .button {
     font-size: 18px;
     text-decoration: none;
-    color: #c1812b;
-    border: #c1812b 1px solid;
+    color: #fff;
+    border: #fff 1px solid;
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 20px;
 }
 
 #section-c .button:hover {
-    background: #c1812b;
+    background: #396D48;
+    color: #fff;
+}
+
+#section-c .box-2 .button:hover {
+    background: #234430;
     color: #fff;
 }
