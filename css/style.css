@@ -28,10 +28,14 @@ body{
 #showcase h1{
     font-size:50px;
     line-height:1.2;
+    text-shadow: 2px 2px 5px #396D48;
+
 }
 
 #showcase p{
     font-size:18px;
+    line-height:1.2;
+    text-shadow: 2px 2px 5px #396D48;
 }
 
 #showcase .button{
@@ -81,4 +85,19 @@ body{
 #section-c .box-2{
     background: #396D48;
     flex: 1;
+}
+
+#section-c .button{
+    font-size:18px;
+    text-decoration:none;
+    color: #c1812b;
+    border: #c1812b 1px solid;
+    padding:10px 20px;
+    border-radius:10px;
+    margin-top:20px;
+}
+
+#section-c .button:hover{
+    background: #c1812b;
+    color: #fff;
 }
