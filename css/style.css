@@ -52,5 +52,33 @@ body{
 
 #section-a{
     padding:20px;
-    background:
+    background: #396D48;
+    text-align:center;
+
+}
+
+#section-b{
+    padding:20px;
+    background: #234430;
+    text-align:center;
+    
+}
+
+#section-c{
+    display:flex;
+    text-align:center;
+}
+
+#section-c div{
+    padding:20px;
+}
+
+#section-c .box-1, #section-c .box-3{
+    background: #234430;
+    flex: 1;
+}
+
+#section-c .box-2{
+    background: #396D48;
+    flex: 1;
 }
